@@ -3,7 +3,7 @@ from datetime import datetime, timedelta, timezone
 
 s3_client = boto3.client("s3")
 
-BUCKET_NAME = "YOUR_BUCKET_NAME"
+BUCKET_NAME = "aws-lambda-cleanup-demo-rashmi"
 
 # Production value
 AGE_LIMIT_DAYS = 30
