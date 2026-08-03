@@ -446,38 +446,6 @@ git push -u origin main
 - Store Cost History in DynamoDB
 - Visualize Costs in Amazon QuickSight
 
----
-
-# Interview Questions
-
-### Why use Cost Explorer API instead of CloudWatch Billing Metrics?
-
-CloudWatch Billing metrics are a legacy feature and only available in the us-east-1 region after manual activation. The Cost Explorer API is the modern and recommended approach, providing richer cost data and greater flexibility.
-
----
-
-### Why EventBridge Scheduler?
-
-EventBridge Scheduler allows fully managed, serverless scheduling of Lambda functions without requiring any infrastructure or cron servers.
-
----
-
-### Why SNS?
-
-SNS provides a simple, scalable notification service that can send alerts via Email, SMS, HTTP endpoints, Lambda, and many other integrations.
-
----
-
-### When would you use AWS Budgets instead?
-
-AWS Budgets is suitable for simple budget alerts with minimal configuration. A custom Lambda solution is preferred when advanced logic is required, such as:
-- Per-service cost monitoring
-- Slack or Microsoft Teams notifications
-- Cost anomaly detection
-- Custom business rules
-- Integration with external systems
-
----
 
 ## Author
 
